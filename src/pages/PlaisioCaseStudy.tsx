@@ -45,11 +45,11 @@ export default function PlaisioCaseStudy({ navigateTo }: { navigateTo: any }) {
 
         {/* Floating Mockups (Videos) */}
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="relative max-w-4xl mx-auto flex flex-col items-center mb-32">
-          {/* Desktop Mockup Video (Green Glow) */}
+          {/* Desktop Mockup Video */}
           <div className="w-full md:w-4/5 aspect-[16/9] bg-[#161616] border border-gray-800 rounded-3xl flex items-center justify-center shadow-[0_0_60px_rgba(0,255,0,0.07)] relative z-0 overflow-hidden">
              <video src="/01 - NL scrolling.mov" autoPlay loop muted playsInline className="w-full h-full object-cover"></video>
           </div>
-          {/* Mobile Mockup Video (Magenta Glow) */}
+          {/* Mobile Mockup Video */}
           <div className="w-2/3 md:w-1/3 aspect-[9/16] bg-[#0a0a0a] border border-gray-700 rounded-[2.5rem] flex items-center justify-center shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_40px_rgba(255,0,255,0.15)] -mt-24 md:-mt-40 z-10 relative overflow-hidden">
              <video src="/02 - mobile mock up.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover"></video>
           </div>
@@ -94,7 +94,7 @@ export default function PlaisioCaseStudy({ navigateTo }: { navigateTo: any }) {
           </div>
         </motion.section>
 
-        {/* The Solution: Figma Design System */}
+        {/* The Solution */}
         <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="max-w-5xl mx-auto mb-32 text-center">
           <p className="text-gray-500 uppercase tracking-widest text-sm font-bold mb-3">The Solution:</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 font-display">A Modular Design System</h2>
@@ -110,7 +110,6 @@ export default function PlaisioCaseStudy({ navigateTo }: { navigateTo: any }) {
         <motion.section initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="max-w-5xl mx-auto mb-32">
           <h3 className="text-center text-3xl font-bold text-white mb-16 font-display">System in Action</h3>
           
-          {/* SVG Icons Row */}
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-16">
               <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-[#0a0a0a] border border-green-500/40 flex items-center justify-center shadow-[0_0_20px_rgba(0,255,0,0.15)] hover:bg-green-500/10 transition-colors p-4">
                  <img src="/Asset 1.svg" alt="Asset 1" className="w-full h-full object-contain" />
@@ -123,7 +122,6 @@ export default function PlaisioCaseStudy({ navigateTo }: { navigateTo: any }) {
               </div>
           </div>
 
-          {/* Expanded Masonry Collage */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
              <div className="aspect-[4/3] md:col-span-2 bg-[#111111] border border-gray-800 rounded-2xl flex items-center justify-center hover:border-gray-600 transition-colors overflow-hidden">
                 <img src="/landing_page.jpg" alt="Landing Page Elements" className="w-full h-full object-cover object-top" />
