@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="7.53 8.19 156.54 156.54" viewBox="0 0 171.59 172.92" xmlns="http://www.w3.org/2000/svg" data-type="ugc">
+    <g>
+        <path fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="6" d="M164.07 86.46c0 43.227-35.043 78.27-78.27 78.27S7.53 129.687 7.53 86.46 42.573 8.19 85.8 8.19s78.27 35.043 78.27 78.27z"/>
+        <path fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="6" stroke-linecap="round" d="M119.75 120.38V41.07"/>
+        <path fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="6" stroke-linecap="round" d="M119.75 27.43H51.84"/>
+        <path fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="6" stroke-linecap="round" d="M73.79 143.82V27.43"/>
+        <path fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="6" stroke-linecap="round" d="M89.12 153.8V43.73"/>
+    </g>
+</svg>
